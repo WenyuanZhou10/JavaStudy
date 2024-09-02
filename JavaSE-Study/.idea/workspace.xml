@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b9b5e68-5379-4042-ab6f-0f10112b0849" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Producer_consumer/ReentrantLockImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Producer_consumer/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/Proxy/ClientProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/TestClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/cache/serviceCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/client/RPCClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/client/impl/NettyRPCClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/client/impl/SimpleRPCClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/netty/nettyInitializer/NettyClientInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/retry/guavaRetry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/serviceCenter/ServiceCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/serviceCenter/ZKWatcher/watchZK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/serviceCenter/balance/LoadBalance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/serviceCenter/balance/impl/ConsistencyHashBalance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/serviceCenter/balance/impl/RandomLoadBalance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/serviceCenter/balance/impl/RoundLoadBalance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Client/serviceCenter/impl/ZKServiceCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/TestServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/netty/handler/NettyRPCServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/netty/nettyInitializer/NettyServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/server/RPCServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/server/impl/NettyRPCServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/server/impl/SimpleRPCServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/server/impl/ThreadPoolRPCRPCServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/server/work/WorkThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/serviceRegister/ServiceRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/Server/serviceRegister/impl/ZKServiceRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/message/MessageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/message/RPCRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/message/RPCResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/pojo/Blog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/serializer/Serializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/serializer/impl/JsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/serializer/impl/ObjectSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/serializer/myCode/MyDecode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/serializer/myCode/MyEncode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/service/BlogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/service/impl/BlogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RPC-v3/src/main/java/p1/common/service/impl/UserServiceImpl.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MAVEN\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.8" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2keJKpxcXNOshZt2JbLXL6S7NAY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK Location&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Producer_consumer.test" />
+      <module name="JavaSE-Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Producer_consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b9b5e68-5379-4042-ab6f-0f10112b0849" name="Changes" comment="" />
+      <created>1696095547726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696095547726</updated>
+      <workItem from="1723638050580" duration="2037000" />
+      <workItem from="1724034257259" duration="610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
