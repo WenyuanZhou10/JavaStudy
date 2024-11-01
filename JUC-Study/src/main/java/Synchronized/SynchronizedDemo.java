@@ -2,6 +2,7 @@ package Synchronized;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class SynchronizedDemo {
     public static void main(String[] args) throws InterruptedException {
@@ -12,7 +13,7 @@ public class SynchronizedDemo {
                 while(true){
                     try{
                         String s = q.getTask();
-                        System.out.println("执行任务：" + s);
+                        System.out.println(Thread.currentThread().getName() + " 执行任务：" + s);
                     } catch (InterruptedException e) {
                         return;
                     }
@@ -23,7 +24,7 @@ public class SynchronizedDemo {
         }
         Thread add = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
-                String s = "t-" + Math.random();
+                String s = "t-" + new Random().nextInt(500);
                 System.out.println("add task:" + s);
                 q.addTask(s);
                 try{
@@ -34,7 +35,7 @@ public class SynchronizedDemo {
             }
         });
         add.start();
-        add.join();
+        add.join();// 保证所有的task都能够被消费后，再将消费线程全部关闭，主线程等待add任务执行完再执行后续代码
         Thread.sleep(100);
         for(Thread t : ts){
             t.interrupt();
